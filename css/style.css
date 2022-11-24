@@ -1,0 +1,232 @@
+/* Colors and font styles
+- Dark background color (hero and footer)                     #1F2937
+- Hero Main text ("this website is awesome") 48px extra-bold  #F9FAF8
+- Hero secondary text, Header Link Text 18px                  #E5E7EB
+- Header Logo Text 24px                                       #F9FAF8
+- Button color, call to action background color               #3882F6
+- information header text 36px extra-bold                     #1F2937
+- quote section background color                              #E5E7EB
+- quote text 36px light italic                                #1F2937 */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto italic";
+  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  max-width: 10vw;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* -------------------- Navigation -------------------- */
+.navbar {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 50px;
+  color: #e5e7eb;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+
+.menu-list-item {
+  margin-right: 30px;
+}
+
+/* -------------------- Section 1 -------------------- */
+.section-1 {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 40vh;
+}
+
+.section-1-text-container {
+  width: 33vw;
+  height: 20vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-1-text-container h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.section-1-text-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0 0 25px 0;
+}
+
+.section-1-image-container {
+  width: 33vw;
+  height: 20vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb4f;
+}
+
+.section-1-image-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* -------------------- Section 2 -------------------- */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 35vh;
+}
+
+.section-2 h2 {
+  padding: 40px 0 40px 0;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.section-2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.section-2-item {
+  padding: 30px;
+  text-align: center;
+}
+
+.section-2-item img {
+  border: solid 3px #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+/* -------------------- Section 3 -------------------- */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 25vh;
+  background-color: #e5e7eb;
+}
+
+.section-3-quote {
+  color: #1f2937;
+  font-family: "Roboto italic", sans-serif;
+  font-size: 36px;
+  width: 55vw;
+}
+
+.section-3-signature {
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 36px;
+  width: 55vw;
+}
+
+/* -------------------- Section 4 -------------------- */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 25vh;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vw;
+  padding: 35px 65px 35px 65px;
+  border-radius: 10px;
+}
+
+.cta-text h4 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cta-btn {
+  border: solid 2px #f9faf8;
+}
+
+/* -------------------- Footer -------------------- */
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+
+h6 {
+  color: #f9faf8;
+  font-weight: 400;
+}
+
+footer a {
+  font-size: 12px;
+}
