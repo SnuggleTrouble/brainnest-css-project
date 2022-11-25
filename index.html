@@ -2,69 +2,105 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This Website is Awesome</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Project Zomboid</title>
+    <link
+      rel="stylesheet"
+      href="./css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
     <div class="navbar">
       <div class="navbar-container">
-        <div><h1 class="logo">Header Logo</h1></div>
         <div>
+          <a href="../index.html"
+            ><img
+              src="../images/pz-logo.png"
+              alt="Project Zombie Logo"
+              class="logo"
+          /></a>
+        </div>
+        <div class="menu-container">
           <ul class="menu-list">
-            <li class="menu-list-item"><a href="">header link one</a></li>
-            <li class="menu-list-item"><a href="">header link two</a></li>
-            <li class="menu-list-item"><a href="">header link three</a></li>
+            <li class="menu-list-item">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="./pages/the-game.html">The Game</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="./pages/media.html">Media</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- Section 1 -->
-    <div class="section-1">
-      <div class="section-1-text-container">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button><a href="">Sign Up</a></button>
-      </div>
-      <div class="section-1-image-container">
-        <p>this is a placeholder for an image</p>
-        <img src="" alt="" />
+    <div class="section-1-container">
+      <div class="section-1-wrapper">
+        <div class="section-1-text-container">
+          <h1 class="section-1-text-container-title">The Ultimate Zombie Survival RPG</h1>
+          <p class="section-1-text-container-description">
+            Project Zomboid is an open-ended zombie-infested sandbox. It asks
+            one simple question - how will you die?
+          </p>
+          <button><a href="">Buy Now</a></button>
+        </div>
+        <div class="section-1-image-container">
+          <img class="section-1-image-container-img"
+            src="./images/projectZomboid.jpg"
+            alt="Game banner of a crazed person wielding a weapon with a horde of zombies at his feet" />
+        </div>
       </div>
     </div>
 
     <!-- Section 2 -->
-    <div class="section-2">
-      <h2>Some Random Information.</h2>
-      <div class="section-2-container">
-        <div class="section-2-item">
-          <img
-            src="./images/SpiffoMascotMap.png"
-            alt="Spiffo the Project Zomboid Mascot with a map" />
-          <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="section-2-item">
-          <img
-            src="./images/SpiffoRummage.png"
-            alt="Spiffo the Project Zomboid Mascot rummaging through a box of items" />
-          <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="section-2-item">
-          <img
-            src="./images/Spiffoskip.png"
-            alt="Spiffo the Project Zomboid Mascot skipping happily along" />
-          <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="section-2-item">
-          <img
-            src="./images/Spiffouse.png"
-            alt="Spiffo the Project Zomboid Mascot loves a good burger" />
-          <p>this is some subtext under and illustration or image</p>
+    <div class="section-2-container">
+      <h2 class="section-2-title">Meet Spiffo the Raccoon</h2>
+      <div class="section-2-wrapper">
+        <div class="section-2">
+          <div class="section-2-item">
+            <img
+              class="section-2-item-img"
+              src="./images/SpiffoMascotMap.png"
+              alt="Spiffo the Project Zomboid Mascot with a map" />
+            <p class="section-2-item-description">
+              Spiffo will always try to provide you with helpful tutorials.
+            </p>
+          </div>
+          <div class="section-2-item">
+            <img
+              class="section-2-item-img"
+              src="./images/SpiffoRummage.png"
+              alt="Spiffo the Project Zomboid Mascot rummaging through a box of items" />
+            <p class="section-2-item-description">
+              Soon you'll be a master at organizing your inventory.
+            </p>
+          </div>
+          <div class="section-2-item">
+            <img
+              class="section-2-item-img"
+              src="./images/Spiffoskip.png"
+              alt="Spiffo the Project Zomboid Mascot skipping happily along" />
+            <p class="section-2-item-description">
+              Be sure to exercise so that you can outrun zombies
+            </p>
+          </div>
+          <div class="section-2-item">
+            <img
+              class="section-2-item-img"
+              src="./images/Spiffouse.png"
+              alt="Spiffo the Project Zomboid Mascot loves a good burger" />
+            <p class="section-2-item-description">
+              Secure enough food to stay fed, but don't overdo it.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -73,13 +109,15 @@
     <div class="section-3">
       <div>
         <p class="section-3-quote">
-          "This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice."
+          "Project Zomboid is the ultimate in zombie survival. Alone or in MP:
+          you loot, build, craft, fight, farm and fish in a struggle to survive.
+          A hardcore RPG skillset, a vast map, massively customisable sandbox
+          and a cute tutorial raccoon await the unwary. So how will you die? All
+          it takes is a bite.."
         </p>
       </div>
       <div>
-        <p class="section-3-signature">-Thor</p>
+        <p class="section-3-signature">-The Indie Stone</p>
       </div>
     </div>
 
@@ -87,17 +125,24 @@
     <div class="section-4">
       <div class="call-to-action">
         <div class="cta-text">
-          <h4>Call to action! It's time!</h4>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
+          <h4>Overwhelmingly Positive Reviews! Can You Survive?</h4>
+          <p>Purchase a copy today by clicking the button right over there!</p>
         </div>
         <div>
-          <button class="cta-btn"><a href="">Sign up</a></button>
+          <button class="cta-btn"><a href="">Buy Now</a></button>
         </div>
       </div>
     </div>
 
-    <footer><h6>Copyright &#169; <a href="https://github.com/SnuggleTrouble" target="_blank">SnuggleTrouble</a></h6></footer>
+    <footer>
+      <h6>
+        Copyright &#169;
+        <a
+          href="https://github.com/SnuggleTrouble"
+          target="_blank"
+          >SnuggleTrouble</a
+        >
+      </h6>
+    </footer>
   </body>
 </html>

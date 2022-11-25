@@ -59,8 +59,9 @@ a {
 }
 
 .logo {
-  font-size: 24px;
-  color: #f9faf8;
+  margin-top: 50px;
+  width: 125px;
+  height: auto;
 }
 
 .menu-list {
@@ -73,32 +74,43 @@ a {
   margin-right: 30px;
 }
 
+.menu-list-item a:hover {
+  color: #3882f6;
+  transition: 0.5s ease all;
+}
+
 /* -------------------- Section 1 -------------------- */
-.section-1 {
+.section-1-container {
   background-color: #1f2937;
+  width: 100vw;
+  height: calc(44vh - 100px);
+  padding-top: 50px;
+}
+
+.section-1-wrapper {
+
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 40vh;
 }
 
 .section-1-text-container {
   width: 33vw;
   height: 20vh;
   padding: 25px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.section-1-text-container h1 {
+.section-1-text-container-title {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bold;
 }
 
-.section-1-text-container p {
+.section-1-text-container-description {
   font-size: 18px;
   color: #e5e7eb;
   margin: 0 0 25px 0;
@@ -106,21 +118,20 @@ a {
 
 .section-1-image-container {
   width: 33vw;
-  height: 20vh;
-  padding: 25px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e5e7eb4f;
 }
 
-.section-1-image-container p {
-  font-size: 18px;
-  color: #e5e7eb;
+.section-1-image-container-img {
+  width: 550px;
+  height: auto;
+  padding-left: 50px;
 }
 
 /* -------------------- Section 2 -------------------- */
-.section-2 {
+.section-2-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,30 +139,38 @@ a {
   height: 35vh;
 }
 
-.section-2 h2 {
-  padding: 40px 0 40px 0;
+.section-2-title {
   color: #1f2937;
   font-size: 36px;
   font-weight: bold;
+  padding: 30px;
 }
 
-.section-2-container {
+.section-2-wrapper {
+  position: relative;
+}
+
+.section-2 {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 50vw;
 }
 
 .section-2-item {
-  padding: 30px;
+  position: relative;
   text-align: center;
+  margin: 30px;
 }
 
-.section-2-item img {
+.section-2-item-img {
   border: solid 3px #3882f6;
   border-radius: 10px;
   width: 150px;
   height: 150px;
+}
+
+.section2-item-description {
+  color: #1f2937;
 }
 
 /* -------------------- Section 3 -------------------- */
@@ -210,6 +229,10 @@ a {
 
 .cta-btn {
   border: solid 2px #f9faf8;
+}
+
+.cta-btn a {
+  color: #f9faf8;
 }
 
 /* -------------------- Footer -------------------- */

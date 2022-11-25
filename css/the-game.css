@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto italic";
+  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  max-width: 10vw;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* -------------------- Navigation -------------------- */
+.navbar {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 50px;
+  color: #e5e7eb;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.logo {
+  margin-top: 50px;
+  width: 125px;
+  height: auto;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+
+.menu-list-item {
+  margin-right: 30px;
+}
+
+.menu-list-item a:hover {
+  color: #3882f6;
+  transition: 0.5s ease all;
+}
+
+/* -------------------- The Game world -------------------- */
+.game-world-container {
+  background-color: #1f2937;
+  width: 100vw;
+  height: calc(44vh - 100px);
+  padding-top: 50px;
+}
+
+.game-world-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-world-text-container {
+  width: 33vh;
+  height: 25vh;
+  padding: 25px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.game-world-text-container h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.game-world-text-container p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0 0 25px 0;
+}
+
+.game-world-image-container {
+  width: 33vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.game-world-image-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.game-world-image-container img {
+  width: 550px;
+  height: auto;
+  padding-left: 50px;
+}
+
+/* -------------------- Game Features -------------------- */
+.game-features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.game-features-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.game-features-wrapper {
+  position: relative;
+}
+
+.game-features {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+.game-features-item {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+}
+
+.game-features-item-title {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game-features-item-img {
+  border: #3882f6 solid 3px;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.game-features-item-description {
+  color: #1f2937;
+  width: 500px;
+}
