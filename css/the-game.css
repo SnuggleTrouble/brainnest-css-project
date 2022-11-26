@@ -36,7 +36,7 @@ a {
 /* -------------------- Navigation -------------------- */
 .navbar-container {
   background-color: #1f2937;
-  width: 100vw;
+  width: 100%;
   height: 50px;
   color: #e5e7eb;
 }
@@ -72,7 +72,7 @@ a {
 /* -------------------- The Game world -------------------- */
 .game-world-container {
   background-color: #1f2937;
-  width: 100vw;
+  width: 100%;
   height: calc(44vh - 100px);
   padding-top: 50px;
 }
@@ -132,7 +132,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .game-features-title {

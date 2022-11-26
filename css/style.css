@@ -46,7 +46,7 @@ a {
 /* -------------------- Navigation -------------------- */
 .navbar-container {
   background-color: #1f2937;
-  width: 100vw;
+  width: 100%;
   height: 50px;
   color: #e5e7eb;
 }
@@ -82,7 +82,7 @@ a {
 /* -------------------- Section 1 -------------------- */
 .section-1-container {
   background-color: #1f2937;
-  width: 100vw;
+  width: 100%;
   height: calc(44vh - 100px);
   padding-top: 50px;
 }
@@ -135,7 +135,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 35vh;
 }
 
@@ -179,7 +179,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 25vh;
   background-color: #e5e7eb;
 }
@@ -203,7 +203,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 25vh;
 }
 
@@ -241,7 +241,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100px;
 }
 
