@@ -34,14 +34,14 @@ a {
 }
 
 /* -------------------- Navigation -------------------- */
-.navbar {
+.navbar-container {
   background-color: #1f2937;
   width: 100vw;
   height: 50px;
   color: #e5e7eb;
 }
 
-.navbar-container {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
