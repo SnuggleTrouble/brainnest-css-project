@@ -96,7 +96,6 @@ a {
 .game-world-text-container {
   width: 30vw;
   padding: 25px;
-  margin-right: 50px;
 }
 
 .game-world-text-container h1 {
@@ -112,7 +111,6 @@ a {
 }
 
 .game-world-image-container {
-  width: 33vw;
   height: auto;
 }
 
@@ -125,7 +123,6 @@ a {
 .game-world-image-container img {
   width: 550px;
   height: auto;
-  padding-left: 50px;
 }
 
 /* -------------------- Game Features -------------------- */
@@ -191,4 +188,12 @@ footer {
 footer a:hover {
   color: var(--colour-button-primary);
   transition: 0.5s ease all;
+}
+
+/* Media Queries (Medium Devices) */
+@media screen and (max-width: 1024px) {
+  .game-world-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
 }
