@@ -20,13 +20,13 @@
 }
 
 :root {
-  --colour-text-primary: #F9FAF8;
-  --colour-text-secondary: #E5E7EB;
-  --colour-text-tertiary: #1F2937;
-  --colour-bg-primary: #1F2937;
-  --colour-bg-secondary: #3882F6;
-  --colour-bg-tertiary: #E5E7EB;
-  --colour-button-primary: #3882F6;
+  --colour-text-primary: #f9faf8;
+  --colour-text-secondary: #e5e7eb;
+  --colour-text-tertiary: #1f2937;
+  --colour-bg-primary: #1f2937;
+  --colour-bg-secondary: #3882f6;
+  --colour-bg-tertiary: #e5e7eb;
+  --colour-button-primary: #3882f6;
 }
 
 button {
@@ -95,7 +95,6 @@ a {
 .section-1-text-container {
   width: 30vw;
   padding: 25px;
-  margin-right: 50px;
 }
 
 .section-1-text-container-title {
@@ -111,14 +110,12 @@ a {
 }
 
 .section-1-image-container {
-  width: 33vw;
   height: auto;
 }
 
 .section-1-image-container-img {
   width: 550px;
   height: auto;
-  padding-left: 50px;
 }
 
 /* -------------------- Section 2 -------------------- */
@@ -127,7 +124,7 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 35vh;
+  padding-bottom: 50px;
 }
 
 .section-2-title {
@@ -244,4 +241,15 @@ h6 {
 
 footer a {
   font-size: 12px;
+}
+
+/* Media Queries (Medium Devices) */
+@media screen and (max-width: 1024px) {
+  .section-1-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-2 {
+    flex-wrap: wrap;
+  }
 }
