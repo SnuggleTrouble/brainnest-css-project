@@ -19,8 +19,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --colour-text-primary: #F9FAF8;
+  --colour-text-secondary: #E5E7EB;
+  --colour-text-tertiary: #1F2937;
+  --colour-bg-primary: #1F2937;
+  --colour-bg-secondary: #3882F6;
+  --colour-bg-tertiary: #E5E7EB;
+  --colour-button-primary: #3882F6;
+}
+
 button {
-  background-color: #3882f6;
+  background-color: var(--colour-bg-secondary);
   padding: 5px 15px;
   border-radius: 10px;
   border: none;
@@ -28,17 +38,17 @@ button {
 }
 
 a {
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
   font-size: 18px;
   text-decoration: none;
 }
 
 /* -------------------- Navigation -------------------- */
 .navbar-container {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   width: 100%;
   height: 50px;
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
 }
 
 .navbar {
@@ -65,13 +75,13 @@ a {
 }
 
 .menu-list-item a:hover {
-  color: #3882f6;
+  color: var(--colour-button-primary);
   transition: 0.5s ease all;
 }
 
 /* -------------------- The Game world -------------------- */
 .game-world-container {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   width: 100%;
   height: calc(44vh - 100px);
   padding-top: 50px;
@@ -96,13 +106,13 @@ a {
 }
 
 .game-world-text-container h1 {
-  color: #f9faf8;
+  color: var(--colour-text-primary);
   font-size: 48px;
   font-weight: bold;
 }
 
 .game-world-text-container p {
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
   font-size: 18px;
   margin: 0 0 25px 0;
 }
@@ -118,7 +128,7 @@ a {
 
 .game-world-image-container p {
   font-size: 18px;
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
 }
 
 .game-world-image-container img {
@@ -136,7 +146,7 @@ a {
 }
 
 .game-features-title {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   font-size: 36px;
   font-weight: bold;
   padding: 30px;
@@ -160,26 +170,26 @@ a {
 }
 
 .game-features-item-title {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   font-size: 24px;
   font-weight: bold;
 }
 
 .game-features-item-img {
-  border: #3882f6 solid 3px;
+  border: var(--colour-bg-secondary) solid 3px;
   border-radius: 10px;
   width: 500px;
   height: auto;
 }
 
 .game-features-item-description {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   width: 500px;
 }
 
 /* -------------------- Footer -------------------- */
 footer {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,6 +198,6 @@ footer {
 }
 
 footer a:hover {
-  color: #3882f6;
+  color: var(--colour-button-primary);
   transition: 0.5s ease all;
 }

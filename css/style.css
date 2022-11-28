@@ -19,8 +19,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --colour-text-primary: #F9FAF8;
+  --colour-text-secondary: #E5E7EB;
+  --colour-text-tertiary: #1F2937;
+  --colour-bg-primary: #1F2937;
+  --colour-bg-secondary: #3882F6;
+  --colour-bg-tertiary: #E5E7EB;
+  --colour-button-primary: #3882F6;
+}
+
 button {
-  background-color: #3882f6;
+  background-color: var(--colour-button-primary);
   padding: 5px 15px;
   border-radius: 10px;
   border: none;
@@ -28,17 +38,17 @@ button {
 }
 
 a {
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
   font-size: 18px;
   text-decoration: none;
 }
 
 /* -------------------- Navigation -------------------- */
 .navbar-container {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   width: 100%;
   height: 50px;
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
 }
 
 .navbar {
@@ -65,13 +75,13 @@ a {
 }
 
 .menu-list-item a:hover {
-  color: #3882f6;
+  color: var(--colour-button-primary);
   transition: 0.5s ease all;
 }
 
 /* -------------------- Section 1 -------------------- */
 .section-1-container {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   width: 100%;
   height: calc(44vh - 100px);
   padding-top: 50px;
@@ -95,14 +105,14 @@ a {
 }
 
 .section-1-text-container-title {
-  color: #f9faf8;
+  color: var(--colour-text-primary);
   font-size: 48px;
   font-weight: bold;
 }
 
 .section-1-text-container-description {
   font-size: 18px;
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
   margin: 0 0 25px 0;
 }
 
@@ -130,7 +140,7 @@ a {
 }
 
 .section-2-title {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   font-size: 36px;
   font-weight: bold;
   padding: 30px;
@@ -153,14 +163,14 @@ a {
 }
 
 .section-2-item-img {
-  border: solid 3px #3882f6;
+  border: solid 3px var(--colour-bg-secondary);
   border-radius: 10px;
   width: 150px;
   height: 150px;
 }
 
 .section2-item-description {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
 }
 
 /* -------------------- Section 3 -------------------- */
@@ -171,18 +181,18 @@ a {
   align-items: center;
   width: 100%;
   height: 25vh;
-  background-color: #e5e7eb;
+  background-color: var(--colour-bg-tertiary);
 }
 
 .section-3-quote {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   font-family: "Roboto italic", sans-serif;
   font-size: 36px;
   width: 55vw;
 }
 
 .section-3-signature {
-  color: #1f2937;
+  color: var(--colour-text-tertiary);
   font-weight: bold;
   font-size: 36px;
   width: 55vw;
@@ -198,7 +208,7 @@ a {
 }
 
 .call-to-action {
-  background-color: #3882f6;
+  background-color: var(--colour-bg-secondary);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -208,26 +218,26 @@ a {
 }
 
 .cta-text h4 {
-  color: #f9faf8;
+  color: var(--colour-text-primary);
   font-size: 24px;
 }
 
 .cta-text p {
-  color: #e5e7eb;
+  color: var(--colour-text-secondary);
   font-size: 18px;
 }
 
 .cta-btn {
-  border: solid 2px #f9faf8;
+  border: solid 2px var(--colour-text-primary);
 }
 
 .cta-btn a {
-  color: #f9faf8;
+  color: var(--colour-text-primary);
 }
 
 /* -------------------- Footer -------------------- */
 footer {
-  background-color: #1f2937;
+  background-color: var(--colour-bg-primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +246,7 @@ footer {
 }
 
 h6 {
-  color: #f9faf8;
+  color: var(--colour-text-primary);
   font-weight: 400;
 }
 
