@@ -34,7 +34,6 @@ button {
   padding: 5px 15px;
   border-radius: 10px;
   border: none;
-  max-width: 10vw;
 }
 
 a {
@@ -46,9 +45,9 @@ a {
 /* -------------------- Navigation -------------------- */
 .navbar-container {
   background-color: var(--colour-bg-primary);
+  color: var(--colour-text-secondary);
   width: 100%;
   height: 50px;
-  color: var(--colour-text-secondary);
 }
 
 .navbar {
@@ -83,25 +82,20 @@ a {
 .section-1-container {
   background-color: var(--colour-bg-primary);
   width: 100%;
-  height: calc(44vh - 100px);
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 130px;
 }
 
 .section-1-wrapper {
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .section-1-text-container {
-  width: 33vw;
-  height: 20vh;
+  width: 30vw;
   padding: 25px;
   margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .section-1-text-container-title {
@@ -119,9 +113,6 @@ a {
 .section-1-image-container {
   width: 33vw;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-1-image-container-img {
@@ -175,13 +166,14 @@ a {
 
 /* -------------------- Section 3 -------------------- */
 .section-3 {
+  background-color: var(--colour-bg-tertiary);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 25vh;
-  background-color: var(--colour-bg-tertiary);
+  margin-bottom: 50px;
+  padding: 25px;
 }
 
 .section-3-quote {
@@ -204,7 +196,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 25vh;
+  margin-bottom: 50px;
 }
 
 .call-to-action {

@@ -46,9 +46,9 @@ a {
 /* -------------------- Navigation -------------------- */
 .navbar-container {
   background-color: var(--colour-bg-primary);
+  color: var(--colour-text-secondary);
   width: 100%;
   height: 50px;
-  color: var(--colour-text-secondary);
 }
 
 .navbar {
@@ -83,26 +83,20 @@ a {
 .game-world-container {
   background-color: var(--colour-bg-primary);
   width: 100%;
-  height: calc(44vh - 100px);
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 90px;
 }
 
 .game-world-wrapper {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .game-world-text-container {
-  width: 33vh;
-  height: 25vh;
+  width: 30vw;
   padding: 25px;
   margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
 }
 
 .game-world-text-container h1 {
@@ -118,17 +112,14 @@ a {
 }
 
 .game-world-image-container {
-  width: 33vh;
+  width: 33vw;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .game-world-image-container p {
   font-size: 18px;
   color: var(--colour-text-secondary);
+  margin: 0 0 25px 0;
 }
 
 .game-world-image-container img {
