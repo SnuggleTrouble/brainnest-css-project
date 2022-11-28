@@ -249,6 +249,9 @@ footer a {
     flex-direction: column;
     text-align: center;
   }
+  .section-1-text-container {
+    width: 50vw;
+  }
   .section-2 {
     flex-wrap: wrap;
   }
