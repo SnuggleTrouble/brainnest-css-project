@@ -20,13 +20,13 @@
 }
 
 :root {
-  --colour-text-primary: #F9FAF8;
-  --colour-text-secondary: #E5E7EB;
-  --colour-text-tertiary: #1F2937;
-  --colour-bg-primary: #1F2937;
-  --colour-bg-secondary: #3882F6;
-  --colour-bg-tertiary: #E5E7EB;
-  --colour-button-primary: #3882F6;
+  --colour-text-primary: #f9faf8;
+  --colour-text-secondary: #e5e7eb;
+  --colour-text-tertiary: #1f2937;
+  --colour-bg-primary: #1f2937;
+  --colour-bg-secondary: #3882f6;
+  --colour-bg-tertiary: #e5e7eb;
+  --colour-button-primary: #3882f6;
 }
 
 button {
